@@ -9,8 +9,8 @@ take 3 params :
 - target (targeted language
 
 example :
-"converter.py file-to-convert.en.xlf en fr" will create a csv of this file in the ./convertedFiles/ of the converter.py directory
-You can now translate in the csv directly, for ease of work it will replace every standard missing translations ("__word" in symfony) to <missing translation> so you can simply ctrl+f and search for every <missing translation>. Once this is done, you can type :
+"converter.py file-to-convert.en.xlf en fr" will create a csv of this file in the ./convertedFiles/ of the converter.py directory.
+You can now translate in the csv directly, for ease of work it will replace every standard missing translations ("__word" in symfony) to \<missing translation> so you can simply ctrl+f and search for every \<missing translation>. Once this is done, you can type :
 "converter.py ./convertedFiles/file-to-convert.en.xlf.csv en fr" and it will create in the ./convertedFiles/ folder a file-to-convert.en.xlf, ready to be used!
 
 Open source
