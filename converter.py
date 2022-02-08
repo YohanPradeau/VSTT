@@ -63,7 +63,7 @@ def xlf_to_csv(): #Function for the xlf to csv conversion
         root = tree.getroot()
         with open(path+"\convertedFiles\\"+filename+".csv", 'w', encoding="utf-8", newline='') as output:
             csvwriter = csv.writer(output)
-            row = ["id (do not edit)", "resname (do not edit)", "source (do no edit)", "translation"]
+            row = ["id (do not edit)", "resname (do not edit)", "source (do not edit)", "translation"]
             csvwriter.writerow(row)
             row = ["<missing translation>"]*4
             for transname in root[0][1]:

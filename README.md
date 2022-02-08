@@ -3,7 +3,7 @@ A small python soft which can be used to parse xlf files to csv and csv to xlf. 
 
 "./converter.py -h" for help
 
-take 3 params : 
+Take 3 parameters : 
 - file (path to the file you want to parse)
 - source (original language)
 - target (targeted language
