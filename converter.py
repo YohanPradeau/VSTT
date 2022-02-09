@@ -73,10 +73,7 @@ def xlf_to_csv(): #Function for the xlf to csv conversion
                     if row[2] == "<missing translation>":
                         row[2] = (elem.text)
                     else:
-                        if elem.text == "__"+row[2]:
-                            break
-                        else:
-                            row[3] = (elem.text)  
+                        row[3] = (elem.text)  
                 csvwriter.writerow(row)
                 row = ["<missing translation>"]*4
     except Exception:
